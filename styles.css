@@ -129,7 +129,7 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 28
 }
 @media print { .topbar, .dots { display: none; } }
 
-.call-btn { display: block; width: 100%; padding: 11px 24px; margin: -6px 0 20px; font: inherit; font-size: .9rem; cursor: pointer; }
+.call-btn { display: block; width: 100%; padding: 11px 24px; margin: -6px 0 20px; text-align: center; font: inherit; font-size: .9rem; cursor: pointer; }
 button.outline-btn { font-family: inherit; cursor: pointer; }
 
 /* icons: stroke SVGs sized to the text */
@@ -137,3 +137,4 @@ button.outline-btn { font-family: inherit; cursor: pointer; }
 .chat-btn .ic, .outline-btn .ic { margin-right: 8px; }
 .outline-btn { display: inline-flex; align-items: center; justify-content: center; }
 .outline-btn[class*="call-btn"] { display: flex; }
+.contact-col .call-btn + .call-btn { margin-top: -8px; }
